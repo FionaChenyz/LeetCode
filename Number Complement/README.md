@@ -13,6 +13,7 @@ Number Complement
 总结三种方法：
 
 1.这种方法时间复杂度较高，循环多次
+
 class Solution {
 public:
     int findComplement(int num) {
