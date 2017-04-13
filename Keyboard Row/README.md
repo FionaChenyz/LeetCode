@@ -24,25 +24,25 @@ vector(向量): C++中的一种数据结构,确切的说是一个类.它相当�
           
           3.详细的函数实现功能：其中vector<int> c.
 
-                c.clear()         移除容器中所有数据。
+                c.clear()           移除容器中所有数据。
 
-                c.empty()         判断容器是否为空。
+                c.empty()           判断容器是否为空。
 
                 c.erase(pos)        删除pos位置的数据
 
-                c.erase(beg,end) 删除[beg,end)区间的数据
+                c.erase(beg,end)    删除[beg,end)区间的数据
 
-                c.front()         传回第一个数据。
+                c.front()           传回第一个数据。
 
                 c.insert(pos,elem)  在pos位置插入一个elem拷贝
 
-                c.pop_back()     删除最后一个数据。
+                c.pop_back()        删除最后一个数据。
+ 
+                c.push_back(elem)   在尾部加入一个数据。
 
-                c.push_back(elem) 在尾部加入一个数据。
+                c.resize(num)       重新设置该容器的大小
 
-                c.resize(num)     重新设置该容器的大小
-
-                c.size()         回容器中实际数据的个数。
+                c.size()            回容器中实际数据的个数。
 
                 c.begin()           返回指向容器第一个元素的迭代器
                 
