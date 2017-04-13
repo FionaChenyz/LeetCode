@@ -3,8 +3,11 @@
 程序中的知识点：
 
 for_each（books.begin(),books.end(),ShowReview）;
+
 //可由下述基于范围的for循环代替：
+
 for(auto &x:books)ShowReview(x);
+
 根据books的类型（vector<Review>）,编译器将推断出x的类型为Review，而循环将依次将books中的每个Review对象传递给ShowReview。
 
 不会用vector，需要一点一点学习！！！！！！！！
